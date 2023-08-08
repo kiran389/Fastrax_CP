@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-08T11:00:54 IST" name="Suite" finished-at="2023-08-08T11:03:44 IST" duration-ms="169936">
+    <groups>
+    </groups>
+    <test started-at="2023-08-08T11:00:54 IST" name="Test" finished-at="2023-08-08T11:03:44 IST" duration-ms="169936">
+      <class name="testScripts.StartnewPermittest">
+        <test-method signature="newPermitMainPage()[pri:1, instance:testScripts.StartnewPermittest@4b741d6d]" started-at="2023-08-08T11:01:23 IST" name="newPermitMainPage" finished-at="2023-08-08T11:01:44 IST" duration-ms="21096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPermitMainPage -->
+        <test-method signature="companyPage()[pri:2, instance:testScripts.StartnewPermittest@4b741d6d]" started-at="2023-08-08T11:01:44 IST" name="companyPage" finished-at="2023-08-08T11:01:49 IST" duration-ms="5402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- companyPage -->
+        <test-method signature="loadPage()[pri:3, instance:testScripts.StartnewPermittest@4b741d6d]" started-at="2023-08-08T11:01:49 IST" name="loadPage" finished-at="2023-08-08T11:02:12 IST" duration-ms="22826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPage -->
+        <test-method signature="routePage()[pri:4, instance:testScripts.StartnewPermittest@4b741d6d]" started-at="2023-08-08T11:02:12 IST" name="routePage" finished-at="2023-08-08T11:03:31 IST" duration-ms="78729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- routePage -->
+      </class> <!-- testScripts.StartnewPermittest -->
+      <class name="testScripts.Checkouttest">
+        <test-method signature="checkout()[pri:0, instance:testScripts.Checkouttest@2eae8e6e]" started-at="2023-08-08T11:03:31 IST" name="checkout" finished-at="2023-08-08T11:03:44 IST" duration-ms="13413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+      </class> <!-- testScripts.Checkouttest -->
+      <class name="testScripts.Logintest">
+        <test-method is-config="true" signature="browsersetup()[pri:0, instance:testScripts.Logintest@7b36aa0c]" started-at="2023-08-08T11:00:54 IST" name="browsersetup" finished-at="2023-08-08T11:01:02 IST" duration-ms="7619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsersetup -->
+        <test-method signature="validEmailPasswordloginpage()[pri:1, instance:testScripts.Logintest@7b36aa0c]" started-at="2023-08-08T11:01:02 IST" name="validEmailPasswordloginpage" finished-at="2023-08-08T11:01:20 IST" duration-ms="17769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmailPasswordloginpage -->
+        <test-method is-config="true" signature="quitt()[pri:0, instance:testScripts.Logintest@7b36aa0c]" started-at="2023-08-08T11:01:20 IST" name="quitt" finished-at="2023-08-08T11:01:23 IST" duration-ms="3015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitt -->
+      </class> <!-- testScripts.Logintest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
