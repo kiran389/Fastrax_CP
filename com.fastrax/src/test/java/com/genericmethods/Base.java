@@ -60,6 +60,7 @@ public class Base {
 		}
 
 		public WebDriver initializeAndOpenBrowser(String browserName) throws InterruptedException {
+			WebDriverManager.chromedriver().setup();
 			ChromeOptions options= new ChromeOptions();
 			options.addArguments("--disable-gpu");
 			options.addArguments("--remote-allow-origins=*");
